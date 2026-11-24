@@ -1,0 +1,61 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.weekwise-dev-secret
+
+# Local databases
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Python
+*.py[cod]
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Python virtual environments
+.venv/
+venv/
+
+# Frontend / Node.js
+node_modules/
+dist/
+.vite/
+coverage/
+*.tsbuildinfo
+
+# Test artifacts
+playwright-report/
+test-results/
+blob-report/
+
+# Temporary patches and backups
+.weekwise-*-backup/
+weekwise_*_patch/
+*.bak
+*.tmp
+*.orig
+*.rej
+*.log
+
+# Generated archives
+*.zip
+*.tar.gz
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
